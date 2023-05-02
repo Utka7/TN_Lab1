@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e08f5ccf-c7ea-4be4-ba18-0b0f99929654" name="Changes" comment="first solution repated characters">
-      <change afterPath="$PROJECT_DIR$/src/RepeatedCharacters.java" afterDir="false" />
+    <list default="true" id="e08f5ccf-c7ea-4be4-ba18-0b0f99929654" name="Changes" comment="solution repated characters with set">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RepeatedCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RepeatedCharacters.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +47,7 @@
       <updated>1682755123297</updated>
       <workItem from="1682755125552" duration="643000" />
       <workItem from="1682874991320" duration="2575000" />
-      <workItem from="1683051192193" duration="1675000" />
+      <workItem from="1683051192193" duration="2241000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1682755346511</created>
@@ -56,7 +56,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682755346511</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="solution repated characters with set">
+      <created>1683052911009</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1683052911009</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +83,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="first solution repated characters" />
-    <option name="LAST_COMMIT_MESSAGE" value="first solution repated characters" />
+    <MESSAGE value="solution repated characters with set" />
+    <option name="LAST_COMMIT_MESSAGE" value="solution repated characters with set" />
   </component>
 </project>

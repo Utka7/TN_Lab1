@@ -9,6 +9,18 @@ public class RepeatedCharacters {
         System.out.println("Enter the line");
         String str = scanner.nextLine().toLowerCase();
         char[] charStr = str.toCharArray();
+        Set <Character> repetedChar = getSetRepeatCharInString(str);
+
+        System.out.println("Repeated characters:");
+        for (char c : repetedChar){
+            System.out.println(c);
+        }
+
+    }
+
+    public static Set <Character> getSetRepeatCharInString(String str){
+
+        char[] charStr = str.toLowerCase().toCharArray();
         Set <Character> repetedChar = new HashSet<>();
 
         for (int i = 0; i < charStr.length; i++){
@@ -18,11 +30,6 @@ public class RepeatedCharacters {
                 }
             }
         }
-
-        System.out.println("Repeated characters:");
-        for (char c : repetedChar){
-            System.out.println(c);
-        }
-
+        return repetedChar;
     }
 }
