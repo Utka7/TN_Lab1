@@ -1,6 +1,4 @@
-import java.util.HashSet;
-import java.util.Scanner;
-import java.util.Set;
+import java.util.*;
 
 public class RepeatedCharacters {
     public static void main(String[] args) {
@@ -9,21 +7,29 @@ public class RepeatedCharacters {
         System.out.println("Enter the line");
         String str = scanner.nextLine().toLowerCase();
         char[] charStr = str.toCharArray();
-        Set <Character> repetedChar = getSetRepeatCharInString(str);
+        Map<Character,Integer> repeatedChars = getSetRepeatCharInString(str);
+        Set<Character> keys = repeatedChars.keySet();
 
-        System.out.println("Repeated characters:");
-        for (char c : repetedChar){
-            System.out.println(c);
+
+        for (char c : keys){
+            System.out.println(c + " " + repeatedChars.get(c));
         }
     }
 
-    public static Set<Character> getSetRepeatCharInString(String str) {
-        Set<Character> repeatedChars = new HashSet<>();
+    public static Map<Character,Integer> getSetRepeatCharInString(String str) {
+        Map<Character,Integer> repeatedChars = new HashMap<>();
 
         for (int i = 0; i < str.length(); i++) {
             for (int j = i + 1; j < str.length(); j++) {
                 if (str.charAt(i) == str.charAt(j)) {
-                    repeatedChars.add(str.charAt(i));
+                    char c = str.charAt(i);
+                    if (!repeatedChars.containsKey(c)){
+                        repeatedChars.put(c,2);
+                    }
+                    else {
+                        int count = repeatedChars.get(c);
+                        repeatedChars.put(c,count + 1);
+                    }
                 }
             }
         }
