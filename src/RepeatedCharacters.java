@@ -15,21 +15,19 @@ public class RepeatedCharacters {
         for (char c : repetedChar){
             System.out.println(c);
         }
-
     }
 
-    public static Set <Character> getSetRepeatCharInString(String str){
+    public static Set<Character> getSetRepeatCharInString(String str) {
+        Set<Character> repeatedChars = new HashSet<>();
 
-        char[] charStr = str.toLowerCase().toCharArray();
-        Set <Character> repetedChar = new HashSet<>();
-
-        for (int i = 0; i < charStr.length; i++){
-            for (int j = i + 1; j < charStr.length; j++){
-                if (charStr[i] == charStr[j]){
-                    repetedChar.add(charStr[i]);
+        for (int i = 0; i < str.length(); i++) {
+            for (int j = i + 1; j < str.length(); j++) {
+                if (str.charAt(i) == str.charAt(j)) {
+                    repeatedChars.add(str.charAt(i));
                 }
             }
         }
-        return repetedChar;
+
+        return repeatedChars;
     }
 }
