@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e08f5ccf-c7ea-4be4-ba18-0b0f99929654" name="Changes" comment="solution repated characters without charStr">
+    <list default="true" id="e08f5ccf-c7ea-4be4-ba18-0b0f99929654" name="Changes" comment="added a repetition counter">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/RepeatedCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RepeatedCharacters.java" afterDir="false" />
     </list>
@@ -47,7 +47,7 @@
       <updated>1682755123297</updated>
       <workItem from="1682755125552" duration="643000" />
       <workItem from="1682874991320" duration="2575000" />
-      <workItem from="1683051192193" duration="4246000" />
+      <workItem from="1683051192193" duration="4457000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1682755346511</created>
@@ -77,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683053771272</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="added a repetition counter">
+      <created>1683055491462</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683055491462</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,6 +107,7 @@
     <MESSAGE value="solution repated characters with set" />
     <MESSAGE value="solution repated characters with set add func" />
     <MESSAGE value="solution repated characters without charStr" />
-    <option name="LAST_COMMIT_MESSAGE" value="solution repated characters without charStr" />
+    <MESSAGE value="added a repetition counter" />
+    <option name="LAST_COMMIT_MESSAGE" value="added a repetition counter" />
   </component>
 </project>

@@ -7,16 +7,15 @@ public class RepeatedCharacters {
         System.out.println("Enter the line");
         String str = scanner.nextLine().toLowerCase();
         char[] charStr = str.toCharArray();
-        Map<Character,Integer> repeatedChars = getSetRepeatCharInString(str);
+        Map<Character,Integer> repeatedChars = getRepeatedChars(str);
         Set<Character> keys = repeatedChars.keySet();
-
 
         for (char c : keys){
             System.out.println(c + " " + repeatedChars.get(c));
         }
     }
 
-    public static Map<Character,Integer> getSetRepeatCharInString(String str) {
+    public static Map<Character,Integer> getRepeatedChars(String str) {
         Map<Character,Integer> repeatedChars = new HashMap<>();
 
         for (int i = 0; i < str.length(); i++) {
